@@ -1,0 +1,144 @@
+*{
+     margin: 0;
+     padding: 0;
+ }
+.bor{
+    border: 1px solid red;
+}
+.box{
+    height: 65px;
+    line-height: 65px;
+    background: black;
+}
+.box a{
+    color: white;
+}
+.navUl{
+    margin-left: 5%;
+}
+.navUl>:nth-child(2){
+    margin-left: 5%;
+}
+.navUl>:nth-child(n+3){
+    margin-left:2%;
+}
+.navUl>:nth-child(7){
+    margin-left: 20%;
+}
+.classUl>li{
+padding: 6px;
+}
+.classUl>:first-child{
+    height: 60px;
+    line-height: 60px;
+    background: green;
+    color: white;
+    font-size: 18px;
+}
+.classUl>:nth-child(2){
+    height: 65px;
+    line-height: 65px;
+    background: #0a0a0a;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+.classUl>:nth-child(n+3){
+    margin: 8px 0;
+    font-size: 15px;
+}
+.classUl>:last-child{
+    margin: 45px;
+}
+.classUl>:last-child input{
+    display: inline-block;
+    width: 128px;
+    height: 42px;
+}
+.ok{
+    color: red;
+}
+.ok:before{
+    content: "√";
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    height: 2px;
+    line-height: 20px;
+    padding: 5px;
+    width: 2px;
+}
+.classUl_1>li{
+    margin: 0 0.3%;
+    width: 23%;
+}
+.classUl-2{
+    border: 1px solid grey;
+    padding: 30px 15px;
+    border-radius: 12px;
+}
+.classUl-2>table>tr>td:hover{
+    background: green;
+}
+.table0 li{
+    width: 35%;
+}
+.bor>:nth-child(n+3){
+    text-align: left;
+}
+.bor>:last-child{
+    text-align: center;
+}
+.newInfo{
+    float: left;
+    margin: 0 1% 0 20%;
+
+}
+.newsInfo{
+    float: left;
+}
+.newsList>li{
+    border-bottom: 1px dashed gainsboro;
+    height: 35px;
+    line-height: 35px;
+}
+.newsList>li>a{
+    float: left;
+    text-decoration: none;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0px 16px;
+}
+.newsList>li>a>span{
+   color: red;
+}
+.one{
+    border: 1px solid gainsboro;
+    width: 315px;
+    height: 240px;
+    position:relative;
+}
+.one:hover{
+    top:-2px;
+    box-shadow: 5px 5px 5px grey,-5px 5px 5px grey;
+}
+.img{/*zi*/
+    position: absolute;
+    top:0;
+    left: 4%;
+}
+.one{
+     float: left;
+    margin:0 15px  15px 0;
+ }
+.one p{
+   display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+.center{
+    margin-top: 3%;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../font-awesome.css">
+    <script src="../dist/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <h1>popover</h1>
+            <button class="btn btn-success center-block" data-placement="propover" data-content="白日依山尽" id="btn">
+                工具提示
+            </button>
+            <script>
+                $("#btn").popover("hide");
+            </script>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="dropdown">
+                <button id="member" type="button" data-toggle="dropdown" class="btn btn-primary">
+                     <span class="caret"></span>触发
+                </button>
+                <ul class="dropdown-menu" aria-label="member">
+                    <li>one</li>
+                    <li>two</li>
+                    <li>three</li>
+                    <li>four</li>
+                    <li>five</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="btn-group">
+              <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                  按钮 <span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">one</a></li>
+                    <li><a href="">two</a></li>
+                    <li><a href="">three</a></li>
+                    <li><a href="">four</a></li>
+                    <li><a href="">five</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <!--<h1 style="height: 500px;"></h1>-->
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger" data-toggle="dropdown">
+                    按钮
+                </button>
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">one</a></li>
+                    <li><a href="">two</a></li>
+                    <li><a href="">three</a></li>
+                    <li><a href="">four</a></li>
+                    <li><a href="">five</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <!--<h1 style="height: 500px;"></h1>-->
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger" data-toggle="dropdown">
+                    按钮
+                </button>
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" style="border:0">
+                    <div class="panel panel-default">会员信息</div>
+                    <div class="panel-body"></div>
+                    <div class="panel-footer"></div>
+                    <ul class="list-group">
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                    <!--<table class="table">-->
+                        <!--<tr><td>demo</td></tr>-->
+                        <!--<tr><td>demo</td></tr>-->
+                        <!--<tr><td>demo</td></tr>-->
+                    <!--</table>-->
+
+                </ul>
+            </div>
+    </div>
+
+    </div>
+    <div class="col-md-2">
+        <h1 style="height: 500px;"></h1>
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger" data-toggle="dropdown">
+                按钮
+            </button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="">one</a></li>
+                <li><a href="">two</a></li>
+                <li><a href="">three</a></li>
+                <li><a href="">four</a></li>
+                <li><a href="">five</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#home" data-toggle="tab">home</a></li>
+            <li><a href="#about" data-toggle="tab">about</a></li>
+            <li><a href="#info" data-toggle="tab">info</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <img src="img/1.jpg" alt="" width="100%">
+            </div>
+            <div class="tab-pane fade" id="about">
+                <img src="img/0.jpg" alt="" width="100%">
+            </div>
+            <div class="tab-pane" id="info">
+                <img src="img/3.jpg" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>Tooltips</h2>
+        <button class="btn btn-success center-block" data-toggle="Tooltip" data-placement="top" title="这儿是提示内容" id="demo">工具提示</button>
+    </div>
+    <script>
+        $("#demo").tooltip("hide")
+    </script>
+</div>
+</body>
+</html>

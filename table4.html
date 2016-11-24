@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../font-awesome.css">
+    <script src="../dist/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container" style="border: 1px solid red">
+    <div class="row">
+        <div class="col-md-4">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#Msg">触发</button>
+       <div class="modal fade" id="Msg">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+                <span class="h3">模态框的标题</span>
+            </div>
+            <div class="modal-body">
+                <img src="img/1.jpg" alt="" style="width: 100%">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+        <div class="col-md-4">
+            <button id="btn">手动触发</button>
+            <script>
+                $("#btn").click(function () {
+              $("#Msg").modal("show")
+                })
+            </script>
+        </div>
+        <div class="col-md-4">hello</div>
+    </div>
+</div>
+    <div class="container-fluid" style="border: 1px solid gold">
+        <div class="row">
+                <div class="col-md-4">
+                    <a class="btn btn-primary" data-toggle="modal" data-target="#Msg">触发</a>
+                </div>
+                <div class="col-md-4">hello,tom</div>
+                <div class="col-md-4">hello,peter</div>
+</div>
+    </div>
+</body>
+</html>

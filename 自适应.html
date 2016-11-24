@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自适应</title>
+    <!--<link href="../bootstrap-3.3.0-dist/dist/css/bootstrap.css" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width">
+    <style>
+        #container{
+            width: 970px;
+            margin: auto;
+            border: 1px solid red;
+        }
+        header,nav{
+            height: 50px;
+            border: 1px solid blue;
+            margin-bottom: 2px;
+        }
+        article{
+            padding: 5px;
+            border: 1px solid green;
+            margin-bottom: 2px;
+        }
+        article:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        footer{
+            height: 80px;
+            border: 1px solid navy;
+        }
+        section{
+            width: 60%;
+            border:1px solid purple;
+            height: 500px;
+            float: left;
+        }
+        aside{
+            width: 35%;
+            height: 500px;
+            border:1px solid deeppink;
+            float: right;
+        }
+        @media screen and  (max-width:480px ){/*当屏幕小于480px时*/
+            #container{
+                width: 100%;
+            }
+            section{
+                float: none;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            aside{
+                float: none;
+                width: 100%;
+            }
+        }
+        @media screen and  (max-width:768px ){
+            #container{
+                width: 100%;
+            }
+            section{
+                background: lightgoldenrodyellow;
+                float: none;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            aside{
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<main id="container">
+    <header></header>
+    <nav></nav>
+    <article>
+        <section>section</section>
+        <aside></aside>
+    </article>
+    <footer></footer>
+</main>
+</body>
+</html>

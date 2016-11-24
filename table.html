@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+</head>
+<style>
+    label {
+        line-height: 34px;
+    }
+    .glyphicon-ok {
+        color: green;
+        right: 8px;
+    }
+
+    .glyphicon-remove {
+        color: grey;
+        right: 8px;
+    }
+</style>
+<body>
+<div class="container" style="border: 1px solid red;">
+    <div class="row">
+        <div class="col-md-4" style="border: 1px solid green">
+            <table class="table table-bordered  text-center table-hover table-condensed"><!--  table-striped表格奇数行背景颜色-->
+                <!--         表格      表格边框        居中      表格悬浮变色   表格行数压缩-->
+                <tr class="success">
+                    <td>success</td>
+                    <td>success</td>
+                    <td>success</td>
+                </tr>
+                <tr class="active">
+                    <td>active</td>
+                    <td>active</td>
+                    <td>active</td>
+                </tr>
+                <tr class="warning">
+                    <td>warning</td>
+                    <td>warning</td>
+                    <td>warning</td>
+                </tr>
+                <tr class="danger">
+                    <td>danger</td>
+                    <td>danger</td>
+                    <td>danger</td>
+                </tr>
+                <tr class="info">
+                    <td>info</td>
+                    <td>info</td>
+                    <td>info</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-4 table-responsive" style="border: solid 1px blue">
+            <table class="table table-bordered  text-center table-hover table-condensed"><!--  table-striped表格奇数行背景颜色-->
+                <!--         表格      表格边框        居中      表格悬浮变色   表格行数压缩-->
+                <tr class="success">
+                    <td>success</td>
+                    <td>success</td>
+                    <td>success</td>
+                </tr>
+                <tr class="active">
+                    <td>active</td>
+                    <td>active</td>
+                    <td>active</td>
+                </tr>
+                <tr class="warning">
+                    <td>warning</td>
+                    <td>warning</td>
+                    <td>warning</td>
+                </tr>
+                <tr class="danger">
+                    <td>danger</td>
+                    <td>danger</td>
+                    <td>danger</td>
+                </tr>
+                <tr class="info">
+                    <td>info</td>
+                    <td>info</td>
+                    <td>info</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>six</td>
+                    <td>six</td>
+                    <td>six</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label class="control-label col-sm-3 text-right " for="male">用户名</label>
+
+                <div class="col-sm-7">
+                    <input type="text" id="male" class="form-control">
+                    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group">
+                <label class="control-label col-sm-3 text-right " for="pwd">密码</label>
+
+                <div class="col-sm-7">
+                    <input type="password" id="pwd" class="form-control">
+                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="username">用户名</label>
+            <input type="text" id="username" class="form-control">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="username1">用户名</label>
+            <input type="text" id="username1" class="form-control">
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="username2">用户名</label>
+            <input type="text" id="username2" class="form-control">
+        </div>
+        <div class="form-control">
+            <div class="input-group">
+             <span class="glyphicon glyphicon-user"></span>
+            </div>
+            <input type="text" class="form-control" typle="enail" placeholder="用户名">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for class="control-label" for="foo">警告2222</label>
+        <input type="text" class="form-control" id="foo">
+    </div>
+    <div class="form-group has-error">
+        <label for class="control-label" for="foo1">警告2222</label>
+        <input type="text" class="form-control" id="foo1">
+    </div>
+    <div class="form-group has-success">
+        <label for class="control-label" for="foo2">警告2222</label>
+        <input type="text" class="form-control" id="foo2">
+    </div>
+</div>
+</body>
+</html>
