@@ -1,9 +1,9 @@
 # development
 Ajax留言板
 
-作者 Read
+#作者 Read
 #########
-项目特色
+#项目特色
  <ul>
             <li><a href="#">HTML5</a></li>
             <li><a href="#">CSS3</a></li>
