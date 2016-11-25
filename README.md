@@ -10,5 +10,5 @@ Ajax留言板
             <li><a href="#">JavaScript</a></li>
             <li><a href="#">Jquery</a></li>
   </ul>
-  安装步骤
+#安装步骤
   
